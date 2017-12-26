@@ -10,6 +10,8 @@ namespace DegreeOfAnArray
     {
         public static void Main(string[] args)
         {
+            Solution solution = new Solution();
+            Console.WriteLine(solution.FindShortestSubArray(new int[] { 1, 2, 2, 2 }));
             Console.WriteLine("Hello");
             Console.ReadLine();
         }

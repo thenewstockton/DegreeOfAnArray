@@ -1,0 +1,7 @@
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArrayTests\bin\Debug\DegreeOfAnArrayTests.dll
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArrayTests\bin\Debug\DegreeOfAnArrayTests.pdb
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArrayTests\obj\Debug\DegreeOfAnArrayTests.csprojResolveAssemblyReference.cache
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArrayTests\obj\Debug\DegreeOfAnArrayTests.dll
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArrayTests\obj\Debug\DegreeOfAnArrayTests.pdb
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArrayTests\bin\Debug\DegreeOfAnArray.exe
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArrayTests\bin\Debug\DegreeOfAnArray.pdb
