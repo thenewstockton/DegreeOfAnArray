@@ -16,17 +16,10 @@ namespace DegreeOfAnArray
             {
                 int a = Array.IndexOf(nums, item);
                 int b = Array.LastIndexOf(nums, item);
-                
-                for (int i = 0; i <= a; i++)
+                int length = b - a + 1;
+                if (length < shortestSubArrayLength || shortestSubArrayLength == -1)
                 {
-                    for (int j = nums.Length - 1; j >= b; j--)
-                    {
-                        int[] temp = ReturnSubArray(nums, i, j);
-                        if (temp.Length < shortestSubArrayLength || shortestSubArrayLength == -1)
-                        {
-                            shortestSubArrayLength = temp.Length;
-                        }
-                    }
+                    shortestSubArrayLength = length;
                 }
             }
             
@@ -35,9 +28,8 @@ namespace DegreeOfAnArray
 
         private int[] FindHighestFrequencyNumberOf(int[] nums)
         {
-            var count = nums.GroupBy(x => x).OrderByDescending(x => x.Count()).First().Count();
+            var count = FindDegreeOf(nums);
             var a = nums.GroupBy(x => x).Where(x=> x.Count() == count).Select(x => x.Key).ToArray();
-
             return a;
         }
 
