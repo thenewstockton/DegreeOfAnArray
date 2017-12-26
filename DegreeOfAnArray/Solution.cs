@@ -22,7 +22,6 @@ namespace DegreeOfAnArray
                     shortestSubArrayLength = length;
                 }
             }
-            
             return shortestSubArrayLength;
         }
 
@@ -36,14 +35,6 @@ namespace DegreeOfAnArray
         private int FindDegreeOf(int[] nums)
         {
             return nums.GroupBy(x => x).OrderByDescending(x => x.Count()).First().Count();
-        }
-
-        private int[] ReturnSubArray(int[] nums, int a, int b)
-        {
-            int length = b - a + 1;
-            int[] temp = new int[length];
-            Array.Copy(nums, a, temp, 0, length);
-            return temp;
         }
     }
 }
