@@ -1,0 +1,6 @@
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArray\DegreeOfAnArray\bin\Debug\DegreeOfAnArray.exe.config
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArray\DegreeOfAnArray\bin\Debug\DegreeOfAnArray.exe
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArray\DegreeOfAnArray\bin\Debug\DegreeOfAnArray.pdb
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArray\DegreeOfAnArray\obj\Debug\DegreeOfAnArray.csprojResolveAssemblyReference.cache
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArray\DegreeOfAnArray\obj\Debug\DegreeOfAnArray.exe
+D:\dev\Github\DegreeOfAnArray\DegreeOfAnArray\DegreeOfAnArray\obj\Debug\DegreeOfAnArray.pdb
